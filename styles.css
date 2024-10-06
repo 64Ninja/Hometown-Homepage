@@ -1,0 +1,89 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    border: 6px solid wheat;
+    border-radius: 15px;
+}
+
+img {
+    width: 80px;
+    border-radius: 50%;
+}
+
+.activitie-pics {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("/images/thomas-bennie-B21WLsX6a5c-unsplash.jpg");
+    background-size: cover;
+    color: #F1FAEE;
+    padding: 40px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+
+.header {
+    background-color: #457B9D;
+    padding: 4px 8px;
+    text-shadow: 2px 2px #1D3557;
+    margin-bottom: 5px;
+    border-radius: 4px;
+}
+
+.sub-text {
+    background-color: #1D3557;
+    padding: 2px 4px;
+    text-shadow: 2px 1px #457B9D;
+    margin-top: 0;
+    border-radius: 4px;
+}
+
+.footer-text {
+    font-style: italic;
+}
+
+.sub-header {
+    font-weight: bold;
+}
+.activities-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #F1FAEE;
+    color: #1D3557;
+    padding: 10px 20px;
+}
+
+.guide-section{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    background-color: #A8DADC;
+    width: 300px;
+    margin: 40px auto 40px;
+    padding: 20px;
+    border-bottom: solid 4px #457B9D;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    color: #1D3557;
+    box-shadow: 2px 2px 2px #4a4a4a;
+}
+
+#guide-image {
+    width: 150px;
+    border-radius: 6px;
+}
